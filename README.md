@@ -1,2 +1,2 @@
 # LangGraph_Tutorial
-A repo to begin implementing LangGraph as a way to introduce a smart assistant that not only remember the previous conversation but also gets what you're saying.
+A repo to begin implementing LangGraph as a way to introduce a smart assistant that not only remember the previous conversation but also gets what you're saying. For this project we are going to implement an AI Agent that can assist with HR related queries using a database of employee information. Our agent is able to start new conversation and continue existing ones, lookup employee information using MongoDB Atlas Vector Search and Persist conversation state in MongoDB using LangGraph checkpoints.`

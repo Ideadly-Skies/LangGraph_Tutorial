@@ -1,0 +1,29 @@
+{
+  "name": "langgraph_tutorial",
+  "version": "1.0.0",
+  "description": "A repo to begin implementing LangGraph as a way to introduce a smart assistant that not only remember the previous conversation but also gets what you're saying. For this project we are going to implement an AI Agent that can assist with HR related queries using a database of employee information. Our agent is able to start new conversation and continue existing ones, lookup employee information using MongoDB Atlas Vector Search and Persist conversation state in MongoDB using LangGraph checkpoints.`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.19",
+    "@langchain/langgraph": "^0.2.67",
+    "@langchain/langgraph-checkpoint-mongodb": "^0.0.6",
+    "@langchain/mongodb": "^0.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.24",
+    "mongodb": "^6.16.0",
+    "zod": "^3.24.3"
+  }
+}
